@@ -131,5 +131,5 @@ def auto_sync_podcast(feed_url):
 
 if __name__ == "__main__":
     # Pass ANY target podcast RSS URL right here to scale this system
-    TARGET_FEED = "https://art19.com"
+    TARGET_FEED = "https://rss.art19.com/sixminutes"
     auto_sync_podcast(TARGET_FEED)
