@@ -130,6 +130,11 @@ def auto_sync_podcast(feed_url):
         print("[~] No updates detected. Cloud directory is already perfectly synchronized.")
 
 if __name__ == "__main__":
-    # Pass ANY target podcast RSS URL right here to scale this system
-    TARGET_FEED = "https://rss.art19.com/sixminutes"
+    # Checks if you provided a link in the terminal command
+    if len(sys.argv) > 1:
+        TARGET_FEED = sys.argv[1]
+    else:
+        # Default fallback if you just type the command plain
+        TARGET_FEED = "https://rss.art19.com/sixminutes"
+        
     auto_sync_podcast(TARGET_FEED)
