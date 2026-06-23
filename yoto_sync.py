@@ -134,9 +134,19 @@ def auto_sync_podcast(feed_url):
     else:
         print("[~] No updates detected. Cloud directory is already perfectly synchronized.")
 
+
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        TARGET_FEED = sys.argv[1]
+    # Check if --force or -f is present in the terminal command arguments
+    FORCE_UPDATE = "--force" in sys.argv or "-f" in sys.argv
+    
+    # Strip out the flags to find the raw RSS URL if provided
+    remaining_args = [arg for arg in sys.argv[1:] if arg not in ["--force", "-f"]]
+    
+    if remaining_args:
+        TARGET_FEED = remaining_args[0]
     else:
         TARGET_FEED = "https://rss.art19.com/sixminutes"
         
+    # Pass both the feed and the force preference into the main engine
+    auto_sync_podcast(TARGET_FEED, force=FORCE_UPDATE)
+
