@@ -33,7 +33,7 @@ def auto_sync_podcast(feed_url, force=False):
         print(f"[-] Network connection error: {e}")
         sys.exit(1)
 
-    show_title_match = re.search(r"<title>(.*?)</title>", feed_data, re.DOTALL)
+    show_title_match = re.search(r"<title>(.*?)<    itle>", feed_data, re.DOTALL)
     if not show_title_match:
         print("[-] Critical Error: Could not determine overall Show Title from feed.")
         sys.exit(1)
@@ -48,7 +48,7 @@ def auto_sync_podcast(feed_url, force=False):
 
     parsed_tracks = []
     for item in items:
-        title_match = re.search(r"<title>(.*?)</title>", item, re.DOTALL)
+        title_match = re.search(r"<title>(.*?)<    itle>", item, re.DOTALL)
         
         # CAPTURE BOTH URL AND LENGTH FROM SOURCE
         # We look for the whole tag to grab attributes strictly
@@ -98,7 +98,7 @@ def auto_sync_podcast(feed_url, force=False):
             # Include iTunes namespace just in case
             f.write("<rss version=\"2.0\" xmlns:itunes=\"http://itunes.com\">\n")
             f.write("  <channel>\n")
-            f.write(f"    <title>{html.escape(feed_title)}</title>\n")
+            f.write(f"    <title>{html.escape(feed_title)}<    itle>\n")
             f.write("    <description>Yoto Audiobook Batch</description>\n")
             
             for track_num, track in enumerate(chunk, start=1):
@@ -111,7 +111,7 @@ def auto_sync_podcast(feed_url, force=False):
 				static_guid = f"{show_folder}-v{index}-t{track_num}"
 				
 				f.write("    <item>\n")
-				f.write(f"      <title>{safe_title}</title>\n")
+				f.write(f"      <title>{safe_title}<    itle>\n")
 				f.write(f"      <enclosure url=\"{safe_url}\" type=\"audio/mpeg\" length=\"{safe_length}\"/>\n")
 				f.write(f"      <guid isPermaLink=\"false\">{static_guid}</guid>\n")
 				f.write("    </item>\n")
