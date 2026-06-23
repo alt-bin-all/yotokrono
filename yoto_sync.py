@@ -102,19 +102,19 @@ def auto_sync_podcast(feed_url, force=False):
             f.write("    <description>Yoto Audiobook Batch</description>\n")
             
             for track_num, track in enumerate(chunk, start=1):
-				# Only escape ampersands in the URL to satisfy basic XML rules 
-				# without breaking the Base64 equal signs or dashes
-				safe_url = track["url"].replace("&", "&amp;")
-				
-				safe_title = html.escape(track["title"])
-				safe_length = track["length"]
-				static_guid = f"{show_folder}-v{index}-t{track_num}"
-				
-				f.write("    <item>\n")
-				f.write(f"      <title>{safe_title}<    itle>\n")
-				f.write(f"      <enclosure url=\"{safe_url}\" type=\"audio/mpeg\" length=\"{safe_length}\"/>\n")
-				f.write(f"      <guid isPermaLink=\"false\">{static_guid}</guid>\n")
-				f.write("    </item>\n")
+                # Only escape ampersands in the URL to satisfy basic XML rules 
+                # without breaking the Base64 equal signs or dashes
+                safe_url = track["url"].replace("&", "&amp;")
+                
+                safe_title = html.escape(track["title"])
+                safe_length = track["length"]
+                static_guid = f"{show_folder}-v{index}-t{track_num}"
+                
+                f.write("    <item>\n")
+                f.write(f"      <title>{safe_title}<    itle>\n")
+                f.write(f"      <enclosure url=\"{safe_url}\" type=\"audio/mpeg\" length=\"{safe_length}\"/>\n")
+                f.write(f"      <guid isPermaLink=\"false\">{static_guid}</guid>\n")
+                f.write("    </item>\n")
 
             f.write("  </channel>\n")
             f.write("</rss>\n")
