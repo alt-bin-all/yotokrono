@@ -21,7 +21,8 @@ def sanitize_folder_name(name):
     name = re.sub(r'[^\w\s-]', '', name).strip().lower()
     return re.sub(r'[-\s]+', '_', name)
 
-def auto_sync_podcast(feed_url):
+# Change the function signature to include the force argument default
+def auto_sync_podcast(feed_url, force=False):
     print(f"[*] Fetching feed payload from: {feed_url}")
     
     try:
@@ -125,14 +126,22 @@ def auto_sync_podcast(feed_url):
     run_sys_command(f"git add {show_folder}/")
     
     status = subprocess.run("git status --porcelain", shell=True, text=True, capture_output=True)
-    if status.stdout.strip():
-        run_sys_command(f'git commit -m "Restoring original URLs and lengths"')
+    
+    # IF FORCE IS TRUE, WE IGNORE THE BLANK STATUS CHECK COMPLETELY
+    if status.stdout.strip() or force:
+        print("[*] Changes detected or --force applied. Committing...")
+        
+        # If forcing an unchanged state, use the --allow-empty flag so Git doesn't reject it
+        commit_flag = " --allow-empty" if force else ""
+        run_sys_command(f'git commit{commit_flag} -m "Forced rebuild and token sync for {show_folder}"')
+        
         if run_sys_command("git push"):
             print(f"[+] SUCCESS! Feeds updated online in your '{show_folder}' directory.")
         else:
             print("[-] Error: Git push routine failed.")
     else:
-        print("[~] No updates detected. Cloud directory is already perfectly synchronized.")
+        print("[~] No updates detected. Use --force or -f to override and rebuild.")
+
 
 
 if __name__ == "__main__":
