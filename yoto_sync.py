@@ -125,11 +125,14 @@ def auto_sync_podcast(feed_url, force=False):
         print(f" -> Generated: {filename} ({len(chunk)} tracks)")
 
     print("[*] Initiating Automated GitHub Sync...")
+    # Stage the new XML variations first so Git understands they are part of the local workspace
+    run_sys_command(f"git add {show_folder}/")
+
+    # Now we can cleanly pull down any upstream changes without conflict
     if not run_sys_command("git pull --rebase"):
         print("[-] Aborting sync: local tracking branch out of sync.")
         return
-        
-    run_sys_command(f"git add {show_folder}/")
+
     
     status = subprocess.run("git status --porcelain", shell=True, text=True, capture_output=True)
     if status.stdout.strip() or force:
