@@ -1,256 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:itunes="http://itunes.com">
   <channel>
     <title>Six Minutes - Volume 1</title>
     <description>Yoto Audiobook Batch</description>
     <item>
       <title>Six Minutes Begins</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/9303632d-9f5f-4c24-ab14-fe18ec71993c.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/9303632d-9f5f-4c24-ab14-fe18ec71993c.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t1</guid>
     </item>
     <item>
       <title>Six Minutes without a Past</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/f2950ff0-21f4-4a54-90f2-feb0931ae0b0.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/f2950ff0-21f4-4a54-90f2-feb0931ae0b0.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t2</guid>
     </item>
     <item>
       <title>Six Minutes One Year Later</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/75336aef-d397-4d2c-a910-9f5e79a1b126.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/75336aef-d397-4d2c-a910-9f5e79a1b126.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t3</guid>
     </item>
     <item>
       <title>Six Minutes on a Hoverboard</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/7359e14c-9035-407c-a191-5d6291314de2.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/7359e14c-9035-407c-a191-5d6291314de2.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t4</guid>
     </item>
     <item>
       <title>Six Minutes of the First Day of School</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/5b4116b3-37cd-4c92-b914-2af7f2894783.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/5b4116b3-37cd-4c92-b914-2af7f2894783.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t5</guid>
     </item>
     <item>
       <title>Six Minutes with Jane Doe</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/9c2c4a93-e23a-4309-a55f-2a6e1db9f0d9.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/9c2c4a93-e23a-4309-a55f-2a6e1db9f0d9.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t6</guid>
     </item>
     <item>
       <title>Six Minutes of Truth</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/3b6341b5-bb79-4821-8860-c7064a6e675d.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/3b6341b5-bb79-4821-8860-c7064a6e675d.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t7</guid>
     </item>
     <item>
       <title>Six Minutes of Not Telling Mom and Dad</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/5998dbdf-9f38-4066-a1bc-fdbb2d17fb2d.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/5998dbdf-9f38-4066-a1bc-fdbb2d17fb2d.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t8</guid>
     </item>
     <item>
       <title>Six Minutes of Tracking Badger</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/466415fb-5636-4184-9bca-5d53fafd0b44.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/466415fb-5636-4184-9bca-5d53fafd0b44.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t9</guid>
     </item>
     <item>
       <title>Six Minutes of Knowing Physics</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/f14dbf0c-5d2c-4697-bc50-1f18805128c7.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/f14dbf0c-5d2c-4697-bc50-1f18805128c7.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t10</guid>
     </item>
     <item>
       <title>Six Minutes of Camping</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/cfeec994-d969-4e8e-9541-daa2d3a9a62a.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/cfeec994-d969-4e8e-9541-daa2d3a9a62a.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t11</guid>
     </item>
     <item>
       <title>Six Minutes Running from the Childcatchers</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/98a068e6-4212-406b-b980-cc397d24fd1e.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/98a068e6-4212-406b-b980-cc397d24fd1e.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t12</guid>
     </item>
     <item>
       <title>Six Minutes of Suspicion</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/ba085fd4-df2f-4256-9b51-019e4ecf89bb.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/ba085fd4-df2f-4256-9b51-019e4ecf89bb.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t13</guid>
     </item>
     <item>
       <title>Six Minutes Breaking into a Military Base</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/d0b069d6-a64a-4825-8f57-e187e39006cd.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/d0b069d6-a64a-4825-8f57-e187e39006cd.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t14</guid>
     </item>
     <item>
       <title>Six Minutes of Hovie to the Rescue</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/12051c16-6fe1-4ad4-bf49-11736c06d4de.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/12051c16-6fe1-4ad4-bf49-11736c06d4de.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t15</guid>
     </item>
     <item>
       <title>Six Minutes in Mom’s Office</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/cb774d07-aa41-4979-b338-6054d38fa389.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/cb774d07-aa41-4979-b338-6054d38fa389.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t16</guid>
     </item>
     <item>
       <title>Six Minutes with Mom’s Secret</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/fcdfe24c-896b-447c-a630-d36a23c6b760.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/fcdfe24c-896b-447c-a630-d36a23c6b760.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t17</guid>
     </item>
     <item>
       <title>Six Minutes Trapped in the Car</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/984003c4-464e-4ab9-82db-434818251b17.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/984003c4-464e-4ab9-82db-434818251b17.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t18</guid>
     </item>
     <item>
       <title>Six Minutes on Lockdown</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/111a00b9-09b0-4715-8ece-38ab82214feb.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/111a00b9-09b0-4715-8ece-38ab82214feb.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t19</guid>
     </item>
     <item>
       <title>Six Minutes Back to the Beginning</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/c1d3cf52-909d-492a-9a5f-23e1f372e909.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/c1d3cf52-909d-492a-9a5f-23e1f372e909.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t20</guid>
     </item>
     <item>
       <title>Six Minutes at Sea</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/0a3ea4f6-6961-4002-9d15-bb55058b141f.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/0a3ea4f6-6961-4002-9d15-bb55058b141f.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t21</guid>
     </item>
     <item>
       <title>Six Minutes Running from a Helicopter</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/d669dd18-f14c-4bad-99a9-cb1d0a05d715.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/d669dd18-f14c-4bad-99a9-cb1d0a05d715.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t22</guid>
     </item>
     <item>
       <title>Six Minutes in the Barracks</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/623ff93d-e4ce-467e-985b-6d82ffff62c2.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/623ff93d-e4ce-467e-985b-6d82ffff62c2.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t23</guid>
     </item>
     <item>
       <title>Six Minutes to Make a Decision</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/a557ea99-3678-4c2b-9139-1437a49d0801.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/a557ea99-3678-4c2b-9139-1437a49d0801.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t24</guid>
     </item>
     <item>
       <title>Six Minutes Without Holiday</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/86077897-a83e-4c30-b00b-35ed793333d4.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/86077897-a83e-4c30-b00b-35ed793333d4.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t25</guid>
     </item>
     <item>
       <title>Six Minutes with the Principal</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/3817ada3-e1f2-40a7-ab48-c936dca28a1e.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/3817ada3-e1f2-40a7-ab48-c936dca28a1e.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t26</guid>
     </item>
     <item>
       <title>Six Minutes Searching for Badger</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/2ee6d713-63e7-4c6f-822f-671fa97e6a45.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/2ee6d713-63e7-4c6f-822f-671fa97e6a45.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t27</guid>
     </item>
     <item>
       <title>Six Minutes in a Creepy Warehouse</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/f76a023b-da58-4398-923a-9921b582e862.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/f76a023b-da58-4398-923a-9921b582e862.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t28</guid>
     </item>
     <item>
       <title>Six Minutes of a Rescue</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/f7ecccc3-584a-4595-9445-6ebb1414e9d0.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/f7ecccc3-584a-4595-9445-6ebb1414e9d0.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t29</guid>
     </item>
     <item>
       <title>Six Minutes of Totally Normal – Part 1</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/14fb8758-bca9-4c03-9b9a-4dfcec2c5333.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/14fb8758-bca9-4c03-9b9a-4dfcec2c5333.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t30</guid>
     </item>
     <item>
       <title>Six Minutes of Totally Normal – Part 2</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/51606aed-c289-4938-9c21-f3a10b631dc5.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/51606aed-c289-4938-9c21-f3a10b631dc5.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t31</guid>
     </item>
     <item>
       <title>Six Minutes of Super Powers</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/52e72399-1a43-493a-8f32-7cc3045d3c30.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/52e72399-1a43-493a-8f32-7cc3045d3c30.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t32</guid>
     </item>
     <item>
       <title>Six Minutes of En Francais</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/d1066807-9155-4052-b717-600d1beb0ecd.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/d1066807-9155-4052-b717-600d1beb0ecd.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t33</guid>
     </item>
     <item>
       <title>Six Minutes with the School Nurse</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/2e91fda7-f9d4-487e-8c07-2538a28179c6.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/2e91fda7-f9d4-487e-8c07-2538a28179c6.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t34</guid>
     </item>
     <item>
       <title>Six Minutes with the Juneau Star Ledger</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/4890726f-52bd-469d-81b6-d6526188ffcc.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/4890726f-52bd-469d-81b6-d6526188ffcc.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t35</guid>
     </item>
     <item>
       <title>Six Minutes of Volleyball</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/a2b4e1d2-0dca-4d3f-a10c-0e43703e5d49.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/a2b4e1d2-0dca-4d3f-a10c-0e43703e5d49.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t36</guid>
     </item>
     <item>
       <title>Six Minutes of Breaking and Entering</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/979ecdc6-3699-4846-98fb-da516d700bd0.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/979ecdc6-3699-4846-98fb-da516d700bd0.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t37</guid>
     </item>
     <item>
       <title>Six Minutes in Brynleigh’s House</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/514df0ca-fc5c-49d2-b56d-5c1fef444ad6.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/514df0ca-fc5c-49d2-b56d-5c1fef444ad6.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t38</guid>
     </item>
     <item>
       <title>Six Minutes Busted</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/61eee6db-ac66-4492-aef1-ef818a0ea804.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/61eee6db-ac66-4492-aef1-ef818a0ea804.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t39</guid>
     </item>
     <item>
       <title>Six Minutes of Someone in the Garage</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/0701b80a-c8bf-4576-8da0-0329b1f2c876.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/0701b80a-c8bf-4576-8da0-0329b1f2c876.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t40</guid>
     </item>
     <item>
       <title>Six Minutes with Hermione the Robot</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/d7c41fe9-443a-4bfc-975b-f4dffc2f5d4c.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/d7c41fe9-443a-4bfc-975b-f4dffc2f5d4c.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t41</guid>
     </item>
     <item>
       <title>Six Minutes of Helicopters</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/1dfc71ec-a6f1-4d75-9c50-a8d3ab9e878d.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/1dfc71ec-a6f1-4d75-9c50-a8d3ab9e878d.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t42</guid>
     </item>
     <item>
       <title>Six Minutes of Walking Into a Trap</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/39c36427-a533-4196-af8c-380bf9c0198f.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/39c36427-a533-4196-af8c-380bf9c0198f.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t43</guid>
     </item>
     <item>
       <title>Six Minutes with Hovie</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/91b4b209-e02b-4cca-91d7-f3438ccad501.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/91b4b209-e02b-4cca-91d7-f3438ccad501.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t44</guid>
     </item>
     <item>
       <title>Six Minutes of Middle School Jazz</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/6444d713-b1d3-4bc6-9749-e66afd06e714.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/6444d713-b1d3-4bc6-9749-e66afd06e714.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t45</guid>
     </item>
     <item>
       <title>Six Minutes Locked in a Closet with Brynleigh</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/12b55383-9dd9-4ab9-a644-7ba19826eb30.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/12b55383-9dd9-4ab9-a644-7ba19826eb30.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t46</guid>
     </item>
     <item>
       <title>Six Minutes Until Flashcard is Revealed</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/4ab46ead-a6ab-474e-9206-705868bc6040.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/4ab46ead-a6ab-474e-9206-705868bc6040.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t47</guid>
     </item>
     <item>
       <title>Six Minutes of Flashcard’s Confession</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/d1a3ba4d-837a-4108-89ad-f26217f3819d.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/d1a3ba4d-837a-4108-89ad-f26217f3819d.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t48</guid>
     </item>
     <item>
       <title>Six Minutes of Scrambling</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/5d5b8ac2-51bf-4a8f-b7aa-37c028ed7df3.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/5d5b8ac2-51bf-4a8f-b7aa-37c028ed7df3.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t49</guid>
     </item>
     <item>
       <title>Six Minutes of a Broken Heart</title>
-      <enclosure url="https://mgln.ai/e/955/pscrb.fm/rss/p/rss.art19.com/episodes/67edb30e-76b2-4745-95ba-c4116e50b5b1.mp3" type="audio/mpeg" length="1000000"/>
+      <enclosure url="https://rss.art19.com/episodes/67edb30e-76b2-4745-95ba-c4116e50b5b1.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">six_minutes-v1-t50</guid>
     </item>
   </channel>

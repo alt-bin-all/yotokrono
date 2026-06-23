@@ -6,6 +6,8 @@ import os
 import subprocess
 import sys
 
+# test comment
+
 def run_sys_command(cmd):
     """Helper to safely execute local shell commands."""
     result = subprocess.run(cmd, shell=True, text=True, capture_output=True)
