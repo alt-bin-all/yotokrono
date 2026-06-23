@@ -19,26 +19,6 @@ def sanitize_folder_name(name):
     name = re.sub(r'[^\w\s-]', '', name).strip().lower()
     return re.sub(r'[-\s]+', '_', name)
 
-def clean_yoto_url(raw_url):
-    """
-    Strips out tracking redirects (like mgln.ai and pscrb.fm) and tracking query tokens
-    to provide the direct raw MP3 asset link that Yoto requires.
-    """
-    # 1. Look for the real hidden URL inside the redirection chain
-    match = re.search(r'(https://rss\.art19\.com/episodes/[a-f0-8-]+/?[^?\s"]*)', raw_url)
-    if match:
-        clean_url = match.group(1)
-    else:
-        # 2. Fallback: just strip out query strings if the pattern is different
-        clean_url = raw_url.split('?')[0]
-    
-    # 3. Ensure it strictly ends with .mp3 or similar clean extension
-    if not clean_url.endswith('.mp3'):
-        # If the tracking removal trimmed the extension, put it back
-        clean_url = re.sub(r'(\.mp3).*$', r'\1', clean_url)
-        
-    return clean_url
-
 def auto_sync_podcast(feed_url):
     print(f"[*] Fetching feed payload from: {feed_url}")
     
@@ -66,16 +46,27 @@ def auto_sync_podcast(feed_url):
     parsed_tracks = []
     for item in items:
         title_match = re.search(r"<title>(.*?)</title>", item, re.DOTALL)
-        url_match = re.search(r'<enclosure[^>]*url="([^"]+)"', item)
-        season_match = re.search(r'<itunes:season>(\d+)</itunes:season>', item)
         
-        if not url_match or not title_match:
+        # CAPTURE BOTH URL AND LENGTH FROM SOURCE
+        # We look for the whole tag to grab attributes strictly
+        enclosure_match = re.search(r'<enclosure([^>]+)>', item)
+        
+        if not enclosure_match or not title_match:
             continue
             
-        title = title_match.group(1).strip()
+        enclosure_attrs = enclosure_match.group(1)
         
-        # Apply the tracking cleaner here
-        mp3_url = clean_yoto_url(url_match.group(1).strip())
+        # Extract URL (keep full tokens!)
+        url_match = re.search(r'url="([^"]+)"', enclosure_attrs)
+        if not url_match: continue
+        original_url = url_match.group(1)
+        
+        # Extract Original Length (Vital for Yoto validation)
+        len_match = re.search(r'length="([^"]+)"', enclosure_attrs)
+        original_length = len_match.group(1) if len_match else "0"
+        
+        title = title_match.group(1).strip()
+        season_match = re.search(r'<itunes:season>(\d+)</itunes:season>', item)
         
         if season_match:
             s_id = season_match.group(1)
@@ -87,7 +78,8 @@ def auto_sync_podcast(feed_url):
         
         parsed_tracks.append({
             "title": clean_title,
-            "url": mp3_url,
+            "url": original_url,
+            "length": original_length, # Pass strict byte count
             "season": s_id
         })
 
@@ -100,7 +92,8 @@ def auto_sync_podcast(feed_url):
         
         with open(filename, "w", encoding="utf-8") as f:
             f.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
-            f.write("<rss version=\"2.0\">\n")
+            # Include iTunes namespace just in case
+            f.write("<rss version=\"2.0\" xmlns:itunes=\"http://itunes.com\">\n")
             f.write("  <channel>\n")
             f.write(f"    <title>{html.escape(feed_title)}</title>\n")
             f.write("    <description>Yoto Audiobook Batch</description>\n")
@@ -108,12 +101,13 @@ def auto_sync_podcast(feed_url):
             for track_num, track in enumerate(chunk, start=1):
                 safe_url = html.escape(track["url"])
                 safe_title = html.escape(track["title"])
+                safe_length = track["length"]
                 static_guid = f"{show_folder}-v{index}-t{track_num}"
                 
                 f.write("    <item>\n")
                 f.write(f"      <title>{safe_title}</title>\n")
-                # Cleaned direct URLs allow us to omit length metadata seamlessly
-                f.write(f"      <enclosure url=\"{safe_url}\" type=\"audio/mpeg\" length=\"1000000\"/>\n")
+                # Use ORIGINAL length and ORIGINAL tokenized URL
+                f.write(f"      <enclosure url=\"{safe_url}\" type=\"audio/mpeg\" length=\"{safe_length}\"/>\n")
                 f.write(f"      <guid isPermaLink=\"false\">{static_guid}</guid>\n")
                 f.write("    </item>\n")
                 
@@ -130,22 +124,17 @@ def auto_sync_podcast(feed_url):
     
     status = subprocess.run("git status --porcelain", shell=True, text=True, capture_output=True)
     if status.stdout.strip():
-        run_sys_command(f'git commit -m "Automated tracking cleanup fix for {show_folder}"')
+        run_sys_command(f'git commit -m "Restoring original URLs and lengths"')
         if run_sys_command("git push"):
-            print(f"[+] SUCCESS! Cleaned feeds updated online in your '{show_folder}' directory.")
+            print(f"[+] SUCCESS! Feeds updated online in your '{show_folder}' directory.")
         else:
             print("[-] Error: Git push routine failed.")
     else:
         print("[~] No updates detected. Cloud directory is already perfectly synchronized.")
 
-
-
 if __name__ == "__main__":
-    # Checks if you provided a link in the terminal command
     if len(sys.argv) > 1:
         TARGET_FEED = sys.argv[1]
     else:
-        # Default fallback if you just type the command plain
         TARGET_FEED = "https://rss.art19.com/sixminutes"
         
-    auto_sync_podcast(TARGET_FEED)
